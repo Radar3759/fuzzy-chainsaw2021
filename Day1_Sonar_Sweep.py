@@ -1,3 +1,7 @@
+"""
+Advent of Code 2021, Day 1 Sonar Sweep
+https://adventofcode.com/2021/day/1
+"""
 #create an array called depths. use the data provided
 depths = [199, 200, 208, 210, 200, 207, 240, 269, 260,263]
 #create a var called increases to track the number of increases. set it at zero
@@ -9,4 +13,3 @@ for n in range(len(depths) -1):
         increases += 1
 #print the number of increases
 print(f"There were {increases} increases in depth.")
-
